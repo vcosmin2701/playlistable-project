@@ -7,3 +7,9 @@
   font-family: "Roboto";
   color: #333;
 }
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
