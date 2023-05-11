@@ -1,8 +1,8 @@
 import './App.css'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import NotFound from './components/NotFound';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import PlaylistDetails from './components/PlaylistDetails';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           <div className='content'>
             <Routes>
               <Route path='/' element={<Home />}/>
+              <Route path='/blogs/:id' element={<PlaylistDetails />} />
             </Routes>
           </div>
         </div>
